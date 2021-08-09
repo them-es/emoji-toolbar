@@ -22,7 +22,7 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 = Contribution? =
 
 * The Plugin development can be followed via GitHub <3 / ❤️
-* We are happy to receive feature suggestions and pull requests: [https://github.com/them-es/emoji-picker](https://github.com/them-es/emoji-picker "GitHub")
+* We are happy to receive feature suggestions and pull requests: [https://github.com/them-es/emoji-toolbar](https://github.com/them-es/emoji-toolbar "GitHub")
 
 == Screenshots ==
 
