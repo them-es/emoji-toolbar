@@ -53,7 +53,6 @@ const addEmoji = ( { isActive, value, onChange } ) => {
 						icon="smiley"
 						label="Emoji 😀"
 						onClick={ onClick }
-						isActive={ isActive }
 					/>
 				</Toolbar>
 			</BlockControls>
@@ -63,7 +62,6 @@ const addEmoji = ( { isActive, value, onChange } ) => {
 				icon="smiley"
 				title="Emoji 😀"
 				onClick={ onClick }
-				isActive={ isActive }
 			/>
 
 			{
@@ -71,12 +69,14 @@ const addEmoji = ( { isActive, value, onChange } ) => {
 					<Popover
 						headerTitle="Emoji Popover"
 						position="bottom center"
+						animate={ false }
 					>
 						<Picker
 							theme="auto"
-							autoFocus="true"
-							showPreview="false"
-							emojiTooltip="false"
+							autoFocus={ true }
+							showPreview={ false }
+							emojiTooltip={ false }
+							useButton={ false }
 							title=""
 							emoji=""
 							onSelect={

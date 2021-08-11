@@ -7,7 +7,7 @@
  * Plugin Name: Emoji Toolbar
  * Plugin URI: https://wordpress.org/plugins/emoji-toolbar
  * Description: A simple Emoji picker for rich-text blocks 😀
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: them.es
  * Author URI: https://them.es/plugins/emoji-toolbar
  * License: GPL-2.0+

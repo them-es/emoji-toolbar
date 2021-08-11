@@ -4,7 +4,7 @@ Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
 Tested up to: 5.8
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -46,9 +46,6 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 = How do I change the skin tones? =
 * Click on the yellow dot button (bottom right) in the popup and select the preferred color tone.
 
-= Emoji categories can't be selected! =
-* This is a known bug in the Emoji Mart library (https://github.com/missive/emoji-mart/issues/473) - please use the search bar instead.
-
 = Is this plugin compatible with Multisite? =
 * Yes, you can network-activate this plugin and the feature will be enabled on all sites.
 
@@ -56,6 +53,9 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.0.2 =
+* Bugfixes: 1. Finally categories can be selected on init, 2. Fixed some console warnings
 
 = 1.0.1 =
 * Add another button in the top-level toolbar (the button in the dropdown will stay there for the time being!)
