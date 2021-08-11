@@ -1,13 +1,13 @@
 <?php
 /**
  * @package Emoji Toolbar
- * @version 1.0.0
+ * @version 1.0.1
  *
  * @wordpress-plugin
  * Plugin Name: Emoji Toolbar
  * Plugin URI: https://wordpress.org/plugins/emoji-toolbar
  * Description: A simple Emoji picker for rich-text blocks 😀
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: them.es
  * Author URI: https://them.es/plugins/emoji-toolbar
  * License: GPL-2.0+

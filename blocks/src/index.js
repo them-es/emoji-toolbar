@@ -10,14 +10,21 @@ import { Picker } from 'emoji-mart';
  * https://developer.wordpress.org/block-editor/how-to-guides/format-api/2-toolbar-button/
  * https://github.com/gziolo/gutenberg-times/blob/master/src/index.js
  */
-import { RichTextToolbarButton } from '@wordpress/block-editor';
+import {
+	BlockControls,
+	RichTextToolbarButton,
+} from '@wordpress/block-editor';
+import {
+	Popover,
+	Toolbar,
+	IconButton,
+} from '@wordpress/components';
 import {
 	toggleFormat,
 	removeFormat,
 	registerFormatType,
 	insert,
 } from '@wordpress/rich-text';
-import { Popover } from '@wordpress/components';
 
 const name = 'emoji-picker/emoji';
 
@@ -39,12 +46,26 @@ const addEmoji = ( { isActive, value, onChange } ) => {
 
 	return (
 		<>
+			{ /* 1. Top-level */ }
+			<BlockControls>
+				<Toolbar>
+					<IconButton
+						icon="smiley"
+						label="Emoji 😀"
+						onClick={ onClick }
+						isActive={ isActive }
+					/>
+				</Toolbar>
+			</BlockControls>
+
+			{ /* 2. Dropdown */ }
 			<RichTextToolbarButton
 				icon="smiley"
 				title="Emoji 😀"
 				onClick={ onClick }
 				isActive={ isActive }
 			/>
+
 			{
 				isActive && (
 					<Popover
@@ -57,6 +78,7 @@ const addEmoji = ( { isActive, value, onChange } ) => {
 							showPreview="false"
 							emojiTooltip="false"
 							title=""
+							emoji=""
 							onSelect={
 								( emoji ) => {
 									//console.log( value ); console.log( emoji.native );

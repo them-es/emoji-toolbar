@@ -4,7 +4,7 @@ Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
 Tested up to: 5.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -23,6 +23,10 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 
 * The Plugin development can be followed via GitHub <3 / ❤️
 * We are happy to receive feature suggestions and pull requests: [https://github.com/them-es/emoji-toolbar](https://github.com/them-es/emoji-toolbar "GitHub")
+
+= More information =
+
+[https://them.es/plugins/emoji-toolbar](https://them.es/plugins/emoji-toolbar)
 
 == Screenshots ==
 
@@ -52,4 +56,10 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
-* 1.0.0 Initial release
+
+= 1.0.1 =
+* Add another button in the top-level toolbar (the button in the dropdown will stay there for the time being!)
+* Remove initial preview emoji from Emoji Mart
+
+= 1.0.0 =
+* Initial release
