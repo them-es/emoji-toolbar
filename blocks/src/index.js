@@ -74,9 +74,9 @@ const addEmoji = ( { isActive, value, onChange } ) => {
 						<Picker
 							theme="auto"
 							autoFocus={ true }
-							showPreview={ false }
+							showPreview={ true }
 							emojiTooltip={ false }
-							useButton={ false }
+							native={ true }
 							title=""
 							emoji=""
 							onSelect={
