@@ -4,7 +4,7 @@ Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
 Tested up to: 5.8
-Stable tag: 1.0.3
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -30,9 +30,8 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 
 == Screenshots ==
 
-1. Toolbar
-2. Light Theme
-3. Dark Theme
+1. Light Theme
+2. Dark Theme
 
 == Installation ==
 
@@ -53,6 +52,12 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.1.0 =
+* Fixed some deprecation warnings
+* Ready for localization
+* Style top-level toolbar button as 😀
+* Remove button #2 from dropdown menu
 
 = 1.0.3 =
 * Drop CDN icons and load "os-specific" native Emojis in the Picker component
