@@ -1,6 +1,3 @@
-@import 'emoji-mart.css';
-
-
 /* Toolbar */
 
 .block-editor-block-toolbar .emoji-toolbar {
@@ -10,6 +7,8 @@
 .block-editor-block-toolbar .emoji-toolbar::before {
 	content: '';
 	display: block;
+	min-width: 22px;
+	min-height: 22px;
 	width: 60%;
 	height: 60%;
 	border-radius: 50%;

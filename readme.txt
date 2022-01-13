@@ -3,8 +3,8 @@ Contributors: them.es
 Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
-Tested up to: 5.8
-Stable tag: 1.1.0
+Tested up to: 5.9
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -18,6 +18,10 @@ This plugin reduces the burden by implementing an easy to use Emoji picker in th
 __Emoji Netiquette:__ Emojis have become popular culture and are here to stay but choose them wisely and avoid ❗️ excessive use in your (business) communication.
 
 The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been developed by Missive.
+
+= More =
+
+If you like this plugin and are missing a powerful Icon library in your Editor you may find our [&lt;i&gt; Toolbar](https://wordpress.org/plugins/i-toolbar/ "WordPress Plugin") plugin useful.
 
 = Contribution? =
 
@@ -52,6 +56,9 @@ The Emoji Mart library (BSD 3-Clause "New" or "Revised" License) has been develo
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.1.1 =
+* Minor updates: Styling issue, Removed @import from style-editor.css, Make title translatable
 
 = 1.1.0 =
 * Fixed some deprecation warnings

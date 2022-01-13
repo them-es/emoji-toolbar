@@ -59,7 +59,7 @@ const addEmoji = ( { isActive, value, onChange, onFocus } ) => {
 			{
 				isActive && (
 					<Popover
-						headerTitle="Emoji Popover"
+						headerTitle={ __( 'Emoji Popover', 'emoji-toolbar' ) }
 						animate={ false }
 					>
 						<Picker
