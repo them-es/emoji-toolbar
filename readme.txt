@@ -3,8 +3,8 @@ Contributors: them.es
 Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
-Tested up to: 5.9
-Stable tag: 1.1.1
+Tested up to: 6.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -56,6 +56,11 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.2.0 =
+* Update Emoji Mart library to 5.0 which is faster and more accessible than before
+* Unicode 14.0 support with new emoji chars 🫡
+* Minor styling updates
 
 = 1.1.1 =
 * Minor updates: Styling issue, Removed @import from style-editor.css, Make title translatable

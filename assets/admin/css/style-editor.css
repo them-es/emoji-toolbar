@@ -6,14 +6,9 @@
 
 .block-editor-block-toolbar .emoji-toolbar::before {
 	content: '';
-	display: block;
-	min-width: 22px;
-	min-height: 22px;
-	width: 60%;
-	height: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 50%;
 	background-color: #ffd54f;
-	position: absolute;
-	top: 20% !important;
-	left: 20% !important;
 }
