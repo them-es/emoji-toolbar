@@ -19,11 +19,19 @@ import { toggleFormat, removeFormat, registerFormatType, insert } from '@wordpre
 
 const name = 'emoji-picker/emoji';
 
-function EmojiPicker( props ) {
-	const ref = useRef();
+const getLocale = async () => {
+	const i18n = document.getElementsByTagName( 'html' )[ 0 ].getAttribute( 'lang' ).substring( 0, 2 );
+	try {
+		return await require( `../../assets/i18n/${ i18n }.json` );
+	} catch ( err ) {
+		return null; // Fallback is "English"
+	}
+}
 
+const EmojiPicker = ( props ) => {
+	const ref = useRef();
 	useEffect( () => {
-		new Picker( { ...props, data, ref } );
+		new Picker( { ...props, data, ref, i18n: getLocale } );
 	}, [] );
 
 	return <div ref={ ref } />;
