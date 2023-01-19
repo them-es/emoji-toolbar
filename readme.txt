@@ -4,7 +4,7 @@ Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
 Tested up to: 6.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -13,7 +13,10 @@ A simple Emoji picker that integrates in the rich-text block toolbar.
 
 == Description ==
 Accessing the Emoji library can be painful 😫 on some operating systems. You always have to leave the editor which is not useful for distraction-free writing.
-This plugin reduces the burden by implementing an easy to use Emoji picker in the block toolbar.
+
+* This plugin reduces the burden by implementing an easy to use Emoji picker in the block toolbar.
+* Can be used with any WordPress theme.
+* Only compatible with WordPress (Gutenberg) Core. Third-party page builders will probably not work.
 
 __Emoji Netiquette:__ Emojis have become popular culture and are here to stay but choose them wisely and avoid ❗️ excessive use in your (business) communication.
 
@@ -56,6 +59,11 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.2.3 =
+* Code quality
+* Documentation
+* Update dependencies and locales
 
 = 1.2.2 =
 * Localization of the Picker interface
