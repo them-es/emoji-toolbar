@@ -3,8 +3,8 @@ Contributors: them.es
 Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
-Tested up to: 6.1
-Stable tag: 1.2.3
+Tested up to: 6.2
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -49,6 +49,9 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 
 == Frequently Asked Questions ==
 
+= Emojis don't show up in the content! =
+* You need to make sure that your database tables use the `utf8mb4` collation to be able to natively store emoji characters: [https://make.wordpress.org/core/2015/04/02/omg-emoji-%F0%9F%98%8E](https://make.wordpress.org/core/2015/04/02/omg-emoji-%F0%9F%98%8E "make.wordpress.org")
+
 = How do I change the skin tones? =
 * Click on the yellow dot button (bottom right) in the popup and select the preferred color tone.
 
@@ -59,6 +62,9 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.2.4 =
+* Update dependencies and locales
 
 = 1.2.3 =
 * Code quality
