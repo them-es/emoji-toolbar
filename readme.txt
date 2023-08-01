@@ -3,7 +3,7 @@ Contributors: them.es
 Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
-Tested up to: 6.2
+Tested up to: 6.3
 Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -54,6 +54,9 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 
 = How do I change the skin tones? =
 * Click on the yellow dot button (bottom right) in the popup and select the preferred color tone.
+
+= I can't see any flag emojis! =
+* Unfortunately not all operating systems (like Windows) support flag emojis and instead show the two-letter country code. You can learn more about this issue here: [https://blog.emojipedia.org/emoji-flags-explained/](https://blog.emojipedia.org/emoji-flags-explained/).
 
 = Is this plugin compatible with Multisite? =
 * Yes, you can network-activate this plugin and the feature will be enabled on all sites.
