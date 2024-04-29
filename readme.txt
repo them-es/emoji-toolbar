@@ -3,8 +3,8 @@ Contributors: them.es
 Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
-Tested up to: 6.3
-Stable tag: 1.2.4
+Tested up to: 6.5
+Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -56,7 +56,7 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 * Click on the yellow dot button (bottom right) in the popup and select the preferred color tone.
 
 = I can't see any flag emojis! =
-* Unfortunately not all operating systems (like Windows) support flag emojis and instead show the two-letter country code. You can learn more about this issue here: [https://blog.emojipedia.org/emoji-flags-explained/](https://blog.emojipedia.org/emoji-flags-explained/).
+* Unfortunately not all operating systems (like Windows) support flag emojis and instead just show the two-letter country code. You can learn more about the reasons here [https://blog.emojipedia.org/emoji-flags-explained/](https://blog.emojipedia.org/emoji-flags-explained/) or follow the issue of our underlying library here [https://github.com/missive/emoji-mart/issues/816](https://github.com/missive/emoji-mart/issues/816).
 
 = Is this plugin compatible with Multisite? =
 * Yes, you can network-activate this plugin and the feature will be enabled on all sites.
@@ -65,6 +65,10 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.2.5 =
+* Update dependencies
+* Unicode 15.0 support with new emoji chars 🪇
 
 = 1.2.4 =
 * Update dependencies and locales
