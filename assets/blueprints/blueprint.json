@@ -1,0 +1,18 @@
+{
+	"landingPage": "/wp-admin/post-new.php",
+	"steps": [
+		{ "step": "login", "username": "admin", "password": "password" },
+		{
+			"step": "defineWpConfigConsts",
+			"consts": { "IS_PLAYGROUND_PREVIEW": true }
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "emoji-toolbar"
+			},
+			"options": { "activate": true }
+		}
+	]
+}

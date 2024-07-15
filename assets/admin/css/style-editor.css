@@ -5,7 +5,7 @@
 }
 
 .block-editor-block-toolbar .emoji-toolbar::before {
-	content: '';
+	content: "";
 	display: flex;
 	align-items: center;
 	justify-content: center;
