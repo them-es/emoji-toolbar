@@ -3,8 +3,8 @@ Contributors: them.es
 Donate link: https://them.es/plugins/emoji-toolbar
 Tags: Emoji, Emoticon, Editor, Gutenberg
 Requires at least: 5.6
-Tested up to: 6.6
-Stable tag: 1.2.6
+Tested up to: 6.7
+Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 7.2
@@ -65,6 +65,10 @@ If you like this plugin and are missing a powerful Icon library in your Editor y
 * See https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
 
 == Changelog ==
+
+= 1.2.7 =
+* Tested up to WordPress 6.7
+* Remove load_plugin_textdomain() and rely on WordPress to load translations (https://make.wordpress.org/core/2016/07/06/i18n-improvements-in-4-6/)
 
 = 1.2.6 =
 * Tested up to WordPress 6.6
