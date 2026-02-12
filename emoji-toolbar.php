@@ -3,7 +3,7 @@
  * Plugin Name: Emoji Toolbar
  * Plugin URI: https://wordpress.org/plugins/emoji-toolbar
  * Description: A simple Emoji picker for rich-text blocks 😀
- * Version: 1.2.8
+ * Version: 1.2.9
  * Author: them.es
  * Author URI: https://them.es/plugins/emoji-toolbar
  * Text Domain: emoji-toolbar
@@ -21,7 +21,7 @@ defined( 'ABSPATH' ) || exit;
  *
  * @return void
  */
-function emoji_toolbar_enqueue_assets() {
+function emoji_toolbar_enqueue_assets(): void {
 	$asset_file = include __DIR__ . '/blocks/build/index.asset.php';
 
 	// Enqueue scripts.
